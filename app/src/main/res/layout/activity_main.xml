@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.esri.android.map.MapView
+        android:id="@+id/map_arcgis"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></com.esri.android.map.MapView>
+
+    <RelativeLayout
+        android:id="@+id/r_msg"
+        android:layout_width="@dimen/map_img"
+        android:layout_height="60dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="@dimen/map_img"
+            android:layout_height="@dimen/map_img"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_msg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="top|right"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/icon_circle_red"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="22"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/map_img"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/l_mine"
+            android:layout_width="@dimen/map_img"
+            android:layout_height="@dimen/map_img">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_mine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_map_type"
+            android:layout_width="@dimen/map_img"
+            android:layout_height="@dimen/map_img">
+
+            <ImageView
+                android:id="@+id/img_map_type"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_map_type" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l_location"
+            android:layout_width="@dimen/map_img"
+            android:layout_height="@dimen/map_img">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_map_location" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

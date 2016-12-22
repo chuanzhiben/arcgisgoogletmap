@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/l_pop"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/whites">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/l_google_satl"
+                    android:layout_width="@dimen/maptye_with1"
+                    android:layout_height="@dimen/maptye_height1"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:padding="@dimen/map_padding">
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/maptye_with2"
+                        android:layout_height="@dimen/maptye_height2">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_map_google_satellite" />
+
+                        <ImageView
+                            android:id="@+id/img_end_gsat"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_map_end"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/tv_gs"
+                        android:layout_width="@dimen/maptye_with3"
+                        android:layout_height="@dimen/maptye_height3"
+                        android:gravity="center"
+                        android:text="google卫星图"
+                        android:textColor="@color/tv_maptype2"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/l_satellite"
+                    android:layout_width="@dimen/maptye_with1"
+                    android:layout_height="@dimen/maptye_height1"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/maptye_with2"
+                        android:layout_height="@dimen/maptye_height2">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_map_satellite" />
+
+                        <ImageView
+                            android:id="@+id/img_end_sat"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_map_end"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_sat"
+                        android:layout_width="@dimen/maptye_with3"
+                        android:layout_height="@dimen/maptye_height3"
+                        android:gravity="center"
+                        android:text="卫星图"
+                        android:textColor="@color/tv_maptype2"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/l_trail"
+                    android:layout_width="@dimen/maptye_with1"
+                    android:layout_height="@dimen/maptye_height1"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:padding="@dimen/map_padding">
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/maptye_with2"
+                        android:layout_height="@dimen/maptye_height2">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_map_traffic" />
+
+                        <ImageView
+                            android:id="@+id/img_end_tra"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_map_end"
+                            android:visibility="visible" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_traffic"
+                        android:layout_width="@dimen/maptye_with3"
+                        android:layout_height="@dimen/maptye_height3"
+                        android:gravity="center"
+                        android:text="交通图"
+                        android:textColor="@color/tv_maptype1"
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

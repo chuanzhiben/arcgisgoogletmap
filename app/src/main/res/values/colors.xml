@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="whites">#ffffff</color>
+    <color name="main_tv1">#f37b07</color>
+    <!-- 暗灰色 -->
+    <color name="dimgrey">#696969</color>
+    <color name="gray">#D9D9D9</color>
+    <!-- 雪白色 -->
+    <color name="floralwhite">#FFFAF0</color>
+    <!-- 灰色 -->
+    <color name="grey">#808080</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ec0f38</color>
+    <color name="orange">#ff7f66</color>
+    <color name="bg_tile">#579bfe</color>
+    <color name="tv_mine1">#4e95fe</color>
+    <color name="bg_mine1">#f8f8f9</color>
+    <color name="mine_tv1">#1d1d26</color>
+    <color name="mine_line">#d8d8d8</color>
+    <color name="msg_tv1">#494949</color>
+    <color name="msg_tv2">#c6c4c3</color>
+    <color name="tv_maptype1">#4e95fe</color>
+    <color name="tv_maptype2">#494949</color>
+</resources>

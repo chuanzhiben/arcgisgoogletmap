@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margn_left_m1">15dp</dimen>
+    <dimen name="margn_left_img1">10dp</dimen>
+    <dimen name="margn_left_img2">15dp</dimen>
+    <dimen name="mine_img_with">20dp</dimen>
+    <dimen name="mine_img_height">20dp</dimen>
+    <dimen name="mine_c_height">30dp</dimen>
+    <dimen name="msg_margn1">5dp</dimen>
+    <dimen name="map_img">50dp</dimen>
+    <dimen name="maptab_with">36dip</dimen>
+    <dimen name="maptye_with1">87dp</dimen>
+    <dimen name="maptye_height1">60dp</dimen>
+    <dimen name="maptye_with2">84dp</dimen>
+    <dimen name="maptye_height2">40dp</dimen>
+    <dimen name="maptye_with3">87dp</dimen>
+    <dimen name="maptye_height3">20dp</dimen>
+    <dimen name="map_padding">1.5dp</dimen>
+    <dimen name="mapscr_icomag">8dp</dimen>
+    <dimen name="pfm_pading">25dp</dimen>
+</resources>
